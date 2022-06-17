@@ -1,0 +1,223 @@
+/* File Name: app.css
+   Name: Navjot Singh
+   Student ID: 301157391
+   Date:3-June-2022
+*/
+h1{
+    margin-left: 500px;
+    color: brown;
+}
+
+img{
+    margin-left: 500px;
+}
+
+#im1{
+   margin-left: 600px;
+   width: 300px;
+   height:240px;
+   margin-top: 0px;
+}
+#con{
+    mask-border-width: 5px;
+    border: 3px;
+    border-color: cadetblue;
+    margin-left: 700px;
+    margin-top: 5px;
+}
+#ques
+{
+    color: darkviolet;
+    margin-left: 500px;
+    font-size: 20px;
+}
+#na
+{
+    color: darkviolet;
+    font-size: 20px;
+}
+#em{
+    color: darkviolet;
+    font-size: 20px;
+
+}
+#sub{
+    color: darkviolet;
+    font-size: 20px;
+}
+#pro{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#c1{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#c2{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#c3{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#par1{
+    font-size: 50px;
+    font-size: x-large;
+    color: rgb(27, 88, 163);
+    margin-left: 5px;
+    margin-top: 30px;
+    border: 4px;
+    border-style:groove;
+    border-width: 2px;
+
+}
+#myname
+{
+    margin-left: 670px;
+    margin-top: 10px;
+    color:teal;
+}
+#main{
+    background-color: rgb(236, 227, 214);
+    height: 1080px;
+}
+#mainpro{
+    background-color: rgb(236, 227, 214);
+    height: 1200px;
+}
+#headi{
+    margin-left: 560px;
+}
+#two{
+    color: rgb(27, 88, 163);
+    font-size: larger;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+}
+#four
+{
+    color: rgb(27, 88, 163);
+    font-size: larger;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#three
+{
+    color: rgb(27, 88, 163);
+    font-size: larger;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#mai{
+    height: 775px;
+    background-color:  rgb(236, 227, 214);
+}
+#uol{
+    background-color: aquamarine;
+}
+#cont{
+    height:700px;
+    background-color:  rgb(236, 227, 214);
+}
+#foo{
+    position: relative;
+}
+#home{
+    height: 775px;
+    background-color: rgb(236, 227, 214);
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#imagee{
+    width: 30px;
+    height:25px;
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+#heading1{
+    border-left: #ff5050;
+    border-right: #ff5050;
+    border-bottom: #ff5050;
+    border-top: white;
+    border-top: 0ch;
+    border-style:double;
+    border-width: 5px;
+    margin-right: 650px;
+}
+#heading2{
+    border-left: #ff5050;
+    border-right: #ff5050;
+    border-bottom: #ff5050;
+    border-top: white;
+    border-top: 0ch;
+    border-style:double;
+    border-width: 5px;
+    margin-right: 620px;
+}
+#contain{
+    margin-left: 120px;
+}
+#navbar{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(65, 155, 155);
+    position: static;
+}
+#footer1{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(65, 155, 155);
+}
+#but{
+    color: #3a2525;
+
+}
+#buton{
+    margin-left: 250px;
+}
+#mainservice{
+    height:1060px;
+    background-color: rgb(236, 227, 214);
+}
