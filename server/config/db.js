@@ -6,6 +6,6 @@
 
 
 module.exports={
-  // "URI":"mongodb://localhost/book-store",
+
    "URI":"mongodb+srv://Navjot:XBpGAgDwyhkjEziW@cluster0.9wkv8th.mongodb.net/Contacts-list?retryWrites=true&w=majority"
 }
