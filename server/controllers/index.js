@@ -1,3 +1,9 @@
+/* File Name: app.js
+   Name: Navjot Singh
+   Student ID: 301157391
+   Date:17-June-2022
+*/
+
 let express=require('express');
 let router=express.Router();
 let mongoose=require('mongoose');
@@ -58,7 +64,7 @@ module.exports.displayLoginPage = (req, res, next) => {
         {
            title: "Login",
            messages: req.flash('loginMessage'),
-           displayName: req.user ? req.user.displayName : '' 
+           displayName:req.user ? req.user.displayName:'' 
         })
     }
     else

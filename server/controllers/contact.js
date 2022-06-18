@@ -1,3 +1,9 @@
+/* File Name: app.js
+   Name: Navjot Singh
+   Student ID: 301157391
+   Date:17-June-2022
+*/
+
 let express= require('express');
 let router=express.Router();
 let mongoose= require('mongoose');
@@ -43,16 +49,14 @@ module.exports.displayEditPage=(req,res,next)=>{
 module.exports.processEditPage = (req, res, next) => {
     let id = req.params.id
 
-    let updatedBook = Book({
+    let updatedContact = Contact({
         "_id": id,
         "name": req.body.name,
         "author": req.body.contact,
-        "published": req.body.email,
-        "description": req.body.description,
-        "price": req.body.address
+        "published": req.body.email
     });
 
-    Contact.updateOne({_id: id}, updatedBook, (err) => {
+    Contact.updateOne({_id: id}, updatedContact, (err) => {
         if(err)
         {
             console.log(err);

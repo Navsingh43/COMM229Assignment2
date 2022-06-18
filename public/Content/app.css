@@ -221,3 +221,25 @@ label {
     height:1060px;
     background-color: rgb(236, 227, 214);
 }
+#headtitle{
+    border-left: #ff5050;
+    border-right: #ff5050;
+    border-bottom: #ff5050;
+    border-top: white;
+    border-top: 0ch;
+    border-style:double;
+    border-width: 5px;
+    margin-right: 480px;
+    margin-left: 450px;
+
+}
+#edittitle{
+    border-left: #ff5050;
+    border-right: #ff5050;
+    border-bottom: #ff5050;
+    border-top: white;
+    border-top: 0ch;
+    border-style:double;
+    border-width: 5px;
+    margin-left: 270px;
+}

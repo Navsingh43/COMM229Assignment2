@@ -1,3 +1,10 @@
+/* File Name: app.js
+   Name: Navjot Singh
+   Student ID: 301157391
+   Date:17-June-2022
+*/
+
+
 // requires modules for the User Model
 
 let mongoose=require('mongoose');
@@ -13,15 +20,14 @@ let User= mongoose.Schema(
             required:'username is required'
         },
         
-    /* password:
+       /* password:
         {
             type:String,
             default:'',
             trim:true,
             required:'password is required'
         },
-        */
-         
+         */
         email:{
             type:String,
             default:'',
@@ -46,6 +52,7 @@ let User= mongoose.Schema(
             type:Date,
             default: Date.now
         }
+
     },
     {
         collection: "users"

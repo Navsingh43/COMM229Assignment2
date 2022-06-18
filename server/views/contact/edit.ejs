@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <div class="offset-md-3 col-md-6">
-            <h1><%= title %></h1>
+            <h1 id="edittitle"><%= title %></h1>
 
             <form class="form" method="POST">
                 <div class="form-group">
@@ -37,27 +37,6 @@
                     placeholder="Enter the Year of Contact's Email"
                     name="email" 
                     value="<%= contact.email %>"
-                    required>
-                </div>
-
-                <div class="form-group">
-                    <label for="descriptionTextArea">Description</label>
-                    <textarea type="text" class="form-control"
-                    id="descriptionTextArea"
-                    placeholder="Enter the Contact's description"
-                    name="description" 
-                    required>
-                    <%= contact.description %>
-                    </textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="addressTextField">Address</label>
-                    <input type="text" class="form-control"
-                    id="addressTextField"
-                    placeholder="Enter the contact's address"
-                    name="address" 
-                    value="<%= contact.address %>"
                     required>
                 </div>
 
